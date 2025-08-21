@@ -10,12 +10,13 @@ int main()
  }
  else if(a>10000)
  {
-  printf("%d - %d*0.15");
+  printf("%d - %d*0.15",a);
  }
  else
  {
-  printf("%d - %d*0.05");
+  printf("%d - %d*0.05",a);
  }
  return 0;
 }
+
 
