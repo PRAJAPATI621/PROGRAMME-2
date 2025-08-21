@@ -8,7 +8,7 @@ int main()
  {
   printf("%d - %d*0.1");
  }
- if(a>10000)
+ else if(a>10000)
  {
   printf("%d - %d*0.15");
  }
@@ -18,3 +18,4 @@ int main()
  }
  return 0;
 }
+
