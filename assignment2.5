@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+ float gross_sales,discount,net_sales;
+ printf("Enter ammount of gross sales\n");
+ scanf("%f",&gross_sales);
+ if(gross_sales>20000)
+ {
+  discount = gross_sales * 0.15;
+  net_sales = gross_sales - discount;
+  printf("%f", discount);
+  printf("%f", net_sales);
+ }
+ if(gross_sales>10000)
+ {
+  discount = gross_sales * 0.1;
+  net_sales = gross_sales - net_sales;
+  printf("%f", discount);
+  printf("%f", net_sales);
+ }
+ else
+ {
+  discount = gross_sales * 0.05;
+  net_sales = gross_sales - discount;
+  printf("%f", discount);
+  printf("%f", net_sales);
+ }
+ return 0;
+}
